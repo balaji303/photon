@@ -1,3 +1,10 @@
+/*
+Program the below code in build.particle.io
+Check the Console in console.particle.io
+In functions section you can see LED function that function enter "HIGH"
+or "LOW" to turn the LED ON and OFF
+as per your requirement
+*/
 void setup() {
 pinMode(D7,OUTPUT);
 pinMode(D6,OUTPUT);

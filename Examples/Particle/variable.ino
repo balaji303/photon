@@ -1,4 +1,8 @@
+/*
+Make the LED Glow on and off by writting in the Particle Console-> console.particle.io
+Can Get the variable status in Particle Console-> console.particle.io
 
+*/
 int status=0;
 void setup() {
 pinMode(D7,OUTPUT);

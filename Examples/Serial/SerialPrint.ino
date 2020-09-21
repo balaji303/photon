@@ -18,6 +18,6 @@ if(Serial.available()>0){
     input= Serial.read();
     
     Serial.println("Photon says it receieved");
-    Serial.println(input);
+    Serial.println(input,DEC);
 }
 }

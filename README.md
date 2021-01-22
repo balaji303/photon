@@ -1,3 +1,3 @@
 # photon
 In this repository I have added Particle Photon's Code
-and Setup process as html file
+and Device Setup process as html file

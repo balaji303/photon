@@ -4,8 +4,8 @@ The Particle Photon is a compact, Wi-Fi-enabled development board that allows yo
 
 ## Quick Reference Images
 
-<img src="https://raw.githubusercontent.com/balaji303/photon/blob/master/docs/photon_pin_markings.png" alt="Board Overview" class="inline"/>
-<img src="https://raw.githubusercontent.com/balaji303/photon/blob/master/docs/Photon-PinOUT.png" alt="Pin Out" class="inline"/>
+<img src="https://raw.githubusercontent.com/balaji303/photon/master/docs/photon_pin_markings.png" alt="Board Overview" class="inline"/>
+<img src="https://raw.githubusercontent.com/balaji303/photon/master/docs/Photon-PinOUT.png" alt="Pin Out" class="inline"/>
 
 ## Useful Links
 
@@ -16,3 +16,4 @@ The Particle Photon is a compact, Wi-Fi-enabled development board that allows yo
 - [Manual](https://github.com/balaji303/photon/blob/master/docs/photon_All_In_One-2950691.pdf)
 - [Web IDE](https://build.particle.io/)
 - [Web Console](https://console.particle.io/)
+

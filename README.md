@@ -14,3 +14,6 @@ The Particle Photon is a compact, Wi-Fi-enabled development board that allows yo
 - [Getting Started](https://docs.particle.io/quickstart/photon/)
 - [Datasheet](https://docs.particle.io/reference/datasheets/wi-fi/photon-datasheet/)
 - [Manual](https://github.com/balaji303/photon/blob/master/docs/photon_All_In_One-2950691.pdf)
+- [Web IDE](https://build.particle.io/)
+- [Web Console](https://console.particle.io/)
+

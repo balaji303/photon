@@ -1,5 +1,5 @@
 /**
- * @file Blink2.ino
+ * @file Blinky.ino
  * @author @balaji303 (https://github.com/balaji303)
  * @brief Blink 2 LED
  * @version 1
@@ -8,13 +8,14 @@
  * Copyright (c) 2023 @balaji303
  *
  */
-void setup()
+
+void setup() 
 {
     pinMode(D7,OUTPUT);
     pinMode(D6,OUTPUT);
 }
 
-void loop() 
+void loop()
 {
     digitalWrite(D7,LOW);
     digitalWrite(D6,HIGH);
@@ -23,3 +24,4 @@ void loop()
     digitalWrite(D7,HIGH);
     delay(500);
 }
+

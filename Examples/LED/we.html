@@ -1,0 +1,62 @@
+<!--
+ * @file WebBlink.ino
+ * @author @balaji303 (https://github.com/balaji303)
+ * @brief Local HTML page to Blink 2 LED
+ * @version 1
+ * @date 20-11-2023
+ *
+ * Copyright (c) 2023 @balaji303
+-->
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particle-api-js@8/dist/particle.min.js"></script>
+
+    <style>
+        #logo {
+            width: 50px; /* Adjust the width as needed */
+            height: 50px; /* Adjust the height as needed */
+        }
+    </style>
+
+    <script>
+        var particle = new Particle();
+        let mfa_token;
+
+        $(document).ready(function () {
+            // This function is called when the page loads
+
+            // ... (rest of your existing code)
+
+        });
+
+        // ... (rest of your existing code)
+
+    </script>
+</head>
+
+<body>
+    <div id="mainDiv" style="display: none;">
+        <h3><img src="path/to/vector_art1.png" alt="Vector Art 1" /> Control an LED!</h3>
+        <form>
+            <!-- ... (rest of your existing code) -->
+        </form>
+    </div>
+    <div id="loginDiv">
+        <h3><img id="logo" src="path/to/balaji303_logo.png" alt="@Balaji303 Logo" /> Login to Particle</h3>
+        <div id="loginFailedDiv" style="display: none;">
+            <p>Login failed, please try again.</p>
+        </div>
+        <form id="loginForm">
+            <!-- ... (rest of your existing code) -->
+        </form>
+    </div>
+    <div id="otpDiv" style="display: none;">
+        <form id="otpForm">
+            <!-- ... (rest of your existing code) -->
+        </form>
+    </div>
+</body>
+
+</html>
